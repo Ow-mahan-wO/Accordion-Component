@@ -6,7 +6,7 @@ import "./App.css";
 const App: React.FC = () => {
   return (
     <>
-      <Accordion
+      <Accordion 
       //Your Answer
         children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -29,8 +29,9 @@ const App: React.FC = () => {
         FontSize="14"
       //
       />
-       
+          
     </>
+    
   );
 };
 

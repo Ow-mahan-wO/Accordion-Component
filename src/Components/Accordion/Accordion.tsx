@@ -14,7 +14,7 @@ export const Accordion: React.FC<PropsModel> = ({ children, Question,Color,Bg_Co
   return (
     <>
       <div className="flex justify-center mt-2 flex-col items-center">
-        <div style={CustomStyle} className={`md:w-36 flex justify-between sm: p-5 border-b-2 border-gray-500 w-97`}>
+        <div style={CustomStyle} className="md:w-36 flex justify-between sm: p-5 border-b-2 border-gray-500 w-97">
           <div>
             <p className="font-mono">{Question}</p>
           </div>
@@ -55,7 +55,7 @@ export const Accordion: React.FC<PropsModel> = ({ children, Question,Color,Bg_Co
           </div>
         </div>
         {Isopen ? (
-          <div style={CustomStyle} className="md:w-36 sm: w-97 p-5 ">
+          <div style={CustomStyle} className="Answer md:w-36 sm: w-97 p-5 ">
             <p className="font-mono">{children}</p>
           </div>
         ) : (

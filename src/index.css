@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Answer {
+  animation: opentext .8s ease-in-out forwards;
+  overflow: scroll;
+  height: 0;
+}
+@keyframes opentext {
+  0% {
+    position: relative;
+    bottom: 1rem;
+  }
+  100% {
+    position: relative;
+    bottom: 0;
+    height: 15rem;
+  }
+}
